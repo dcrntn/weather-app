@@ -34,7 +34,7 @@ const message = ref('')
 
 const getSummary = async () => {
   // Construct the query string with zip and country code
-  const url = `http://localhost:8080/api/summary?zip_code=${zipCode.value}&country_code=${countryCode.value}`;
+  const url = `http://localhost/api/summary?zip_code=${zipCode.value}&country_code=${countryCode.value}`;
   
   try {
     const res = await fetch(url);

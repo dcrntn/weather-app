@@ -57,7 +57,7 @@
     methods: {
       async fetchHistoryData() {
         try {
-          const response = await axios.get('http://localhost:8080/api/history');
+          const response = await axios.get('http://localhost/api/history');
           this.history = response.data.history;
         } catch (error) {
           console.error('Error fetching data:', error);

@@ -22,19 +22,19 @@
     {
       name: 'frontend_api',
       label: 'Frontend API',
-      url: 'http://localhost:8080/api/heartbeat',
+      url: 'http://localhost/api/heartbeat',
       status: 'unknown',
     },
     {
       name: 'analytics_processor',
       label: 'Analytics Processor',
-      url: 'http://localhost:8080/analytics/heartbeat',
+      url: 'http://localhost/analytics/heartbeat',
       status: 'unknown',
     },
     {
       name: 'weather_fetcher',
       label: 'Weather Fetcher',
-      url: 'http://localhost:8080/weather/heartbeat',
+      url: 'http://localhost/weather/heartbeat',
       status: 'unknown',
     }
   ])
