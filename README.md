@@ -11,7 +11,7 @@ Is written in vue, since it's powerful enough for this application. After starti
 For db the app uses prostgreSQL since NoSQL dbs wouldn't be reasonable.
 
 ## Nginx
-It's probabbly not needed, but this way the lkrts can be emitted if testing from outside of docker.
+It's probabbly not needed, but this way the ports can be emitted if testing from outside of docker.
 
 ## Note
 The application can be run with docker compose
